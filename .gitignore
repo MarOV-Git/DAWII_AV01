@@ -1,0 +1,7 @@
+/build/
+/target/
+/bing
+.classpath
+.project
+.settings
+/WebContent/META-INF/MANIFEST.MF
