@@ -22,6 +22,7 @@ public class MedicamentoController {
 	private MedicamentoService service;
 	
 	
+	/*Select*/
 	@GetMapping	
 	@ResponseBody
 	public ResponseEntity<List<Medicamento>> listarTodos(){
@@ -29,6 +30,7 @@ public class MedicamentoController {
 		return ResponseEntity.ok(lista);
 	}
 	
+	/*Update e Insert*/
 	@PostMapping	
 	@ResponseBody
 	public ResponseEntity<Medicamento> inserta(@RequestBody Medicamento obj){
